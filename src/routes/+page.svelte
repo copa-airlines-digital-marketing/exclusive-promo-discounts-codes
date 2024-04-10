@@ -1,9 +1,10 @@
 
-
-<div id="couponBanner" class="!py-8 !bg-backgound-lightblue">
+<h2 class="!font-heading !text-primary !font-heading-bold container mx-auto text-center py-16">ES </h2>
+ 
+<div id="couponBannerBar" class="  !py-8 !bg-backgound-lightblue ">
     <div class="!container !mx-auto">
        <div class="!flex !items-center !justify-center !gap-16">
-            <img class="!w-48 " src="https://www.copaair.com/promotions/destinations/icons/de-instrucc-2.png" alt="Desde este correo, dale clic al botón “Compra ya” que te llevará a nuestro sitio donde podrás utilizar el cupón de descuento." />
+            <img class="!w-48 animate-pulse " src="https://www.copaair.com/promotions/destinations/icons/de-instrucc-2.png" alt="Desde este correo, dale clic al botón “Compra ya” que te llevará a nuestro sitio donde podrás utilizar el cupón de descuento." />
      
          <h2 class=" !text-h2 !font-heading-medium !font-heading  !text-primary  ">
             ¡Tu cupón ha sido aplicado, disfruta de este
@@ -12,14 +13,61 @@
        </div>
     </div>
 </div>
-asdasd
 
-<div id="couponBanner" class=" !py-16 !bg-backgound-lightblue ">
+
+<h2 class="!font-heading !text-primary !font-heading-bold container mx-auto text-center py-16">EN </h2>
+
+<div id="couponBannerBar" class="  !py-8 !bg-backgound-lightblue ">
+	<div class="!container !mx-auto">
+	<div class="!flex !items-center !justify-center !gap-16"><img class="!w-48 animate-pulse " src="https://www.copaair.com/promotions/destinations/icons/de-instrucc-2.png" alt="Discount applied!" />
+	<h2 class=" !text-h2 !font-heading-medium !font-heading  !text-primary  ">Your coupon has been applied, enjoy this <span class="!font-heading !text-secondary !italic ">discount</span> for you!</h2>
+	</div>
+	</div>
+	</div>
+
+
+
+<h2 class="!font-heading !text-primary !font-heading-bold container mx-auto text-center py-16">PT </h2>
+
+<div id="couponBannerBar" class="  !py-8 !bg-backgound-lightblue ">
+    <div class="!container !mx-auto">
+       <div class="!flex !items-center !justify-center !gap-16">
+            <img class="!w-48 animate-pulse " src="https://www.copaair.com/promotions/destinations/icons/de-instrucc-2.png" alt="desconto para você!" />
+     
+         <h2 class=" !text-h2 !font-heading-medium !font-heading  !text-primary  ">
+			Seu cupom foi aplicado, aproveite este
+            <span class="!font-heading !text-secondary !italic ">desconto</span> para você!
+        </h2>
+       </div>
+    </div>
+</div>
+
+
+
+<h2 class="!font-heading !text-primary !font-heading-bold container mx-auto text-center py-16">FR </h2>
+
+<div id="couponBannerBar" class="  !py-8 !bg-backgound-lightblue ">
+    <div class="!container !mx-auto">
+       <div class="!flex !items-center !justify-center !gap-16">
+            <img class="!w-48 animate-pulse " src="https://www.copaair.com/promotions/destinations/icons/de-instrucc-2.png" alt="Desde este correo, dale clic al botón “Compra ya” que te llevará a nuestro sitio donde podrás utilizar el cupón de descuento." />
+     
+         <h2 class=" !text-h2 !font-heading-medium !font-heading  !text-primary  ">
+			Votre coupon a été appliqué, profitez de cette
+            <span class="!font-heading !text-secondary !italic ">remise</span> pour vous!
+        </h2>
+       </div>
+    </div>
+</div>
+
+
+<h2 class="!font-heading !text-primary !font-heading-bold container mx-auto text-center py-60">Instructions </h2>
+
+<div id="couponBanner" class=" !py-16  !bg-backgound-lightblue ">
 	<h3 class="!text-h3 !font-heading !text-primary !font-heading-bold !text-center !py-4">
         ¿Cómo acceder a este descuento?
 	</h3>
 	<div
-		class="!container !mx-auto grid !grid-cols-1 md:!grid-cols-2 lg:!grid-cols-4 !auto-rows-auto !gap-24 m-auto">
+		class="!container !mx-auto grid grid-cols-auto-1 sm:grid-cols-auto-2 md:grid-cols-auto-4 auto-cols-auto gap-16 m-auto">
 		<div class="text-center  font-heading">
 			<img class="!w-96 !mx-auto !mb-16" src="https://www.copaair.com/promotions/destinations/icons/de-instrucc-1.png" alt="Desde este correo, dale clic al botón “Compra ya” que te llevará a nuestro sitio donde podrás utilizar el cupón de descuento." />
 			<h3 class="!text-h3 !mb-8 !text-primary font-heading-bold">1°</h3>
@@ -45,31 +93,6 @@ asdasd
 
 </div>
 
-<!--
-
-    <script type="text/javascript">
-    (function deleteAll() {
-        const x = document.querySelectorAll(".__pfs, .__bss");
-        for (i = 0; i < x.length; i++) {
-            x[i].classList.remove('__pfs', '__bss');
-        }
-    })();
-</script>
-
-<script>
-var urlParams = new URLSearchParams(window.location.search);
-var couponParam = urlParams.get('em_dc');
-var pattern = /[A-Z0-9]{7}/
-var esValid = pattern.test(couponParam);
-
-if (esValid = true) {  
-    document.getElementById('couponBanner').classList.remove('hidden')
-}
-
-</script>
 
 
 
-
-
--->
