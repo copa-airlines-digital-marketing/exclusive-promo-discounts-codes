@@ -66,29 +66,44 @@
 	<h3 class="!text-h3 !font-heading !text-primary !font-heading-bold !text-center !py-4">
         ¿Cómo acceder a este descuento?
 	</h3>
-	<div
-		class="!container !mx-auto grid grid-cols-auto-1 sm:grid-cols-auto-2 md:grid-cols-auto-4 auto-cols-auto gap-16 m-auto">
-		<div class="text-center  font-heading">
-			<img class="!w-96 !mx-auto !mb-16" src="https://www.copaair.com/promotions/destinations/icons/de-instrucc-1.png" alt="Desde este correo, dale clic al botón “Compra ya” que te llevará a nuestro sitio donde podrás utilizar el cupón de descuento." />
-			<h3 class="!text-h3 !mb-8 !text-primary font-heading-bold">1°</h3>
-			<p>Desde este correo, dale clic al botón “Compra ya” que te llevará a nuestro sitio donde podrás utilizar el cupón de descuento.</p>
+	<div class="!container !mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-16 md:gap-24  py-20 ">
+			
+		<div class="grid grid-cols-auto-3 sm:grid-cols-1 sm:grid-rows-auto-3   gap-16  ">
+
+				<h3 class="!text-h3  !text-primary font-heading-bold sm:text-center">1°</h3>
+				<p class="max-w-prose ">Desde este correo, dale clic al botón “Compra ya” que te llevará a nuestro sitio donde podrás utilizar el cupón de descuento.</p>
+				<img class="!w-[80px]  !mx-auto self-center sm:row-start-1 " src="https://www.copaair.com/promotions/destinations/icons/de-instrucc-1.png" alt="" />
+
+			</div>
+
+		<div class="grid grid-cols-auto-3 sm:grid-cols-1 sm:grid-rows-auto-3   gap-16 ">
+
+			<h3 class="!text-h3  !text-primary fntfont-heading-bold sm:text-center">2°</h3>
+			<p class="max-w-prose ">Desde este correo, dale clic al botón “Compra ya” que te llevará a nuestro sitio donde podrás utilizar el cupón de descuento.</p>
+			<img class="!w-[80px] !mx-auto self-center sm:row-start-1 " src="https://www.copaair.com/promotions/destinations/icons/de-instrucc-2.png" alt="" />
+
 		</div>
 
-		<div class="text-center font-heading">
-			<img class="!w-96 !mx-auto !mb-16" src="https://www.copaair.com/promotions/destinations/icons/de-instrucc-2.png" alt="Desde este correo, dale clic al botón “Compra ya” que te llevará a nuestro sitio donde podrás utilizar el cupón de descuento." />
-			<h3 class="!text-h3 !mb-8 !text-primary font-heading-bold">2°</h3>
-			<p>Desde este correo, dale clic al botón “Compra ya” que te llevará a nuestro sitio donde podrás utilizar el cupón de descuento.</p>
+
+		<div class="grid grid-cols-auto-3 sm:grid-cols-1 sm:grid-rows-auto-3   gap-16 ">
+
+			<h3 class="!text-h3  !text-primary font-heading-bold sm:text-center">3°</h3>
+			<p class="max-w-prose ">Selecciona las fechas de viaje entre el 8 de febrero y el 30 de junio del 2023 y la ruta de tu preferencia dentro del listado de rutas disponibles.</p>
+			<img class="!w-[80px] !mx-auto  self-center sm:row-start-1 " src="https://www.copaair.com/promotions/destinations/icons/de-instrucc-3.png" alt="" />
+
 		</div>
-		<div class="text-center font-heading">
-			<img class="!w-96 !mx-auto !mb-16" src="https://www.copaair.com/promotions/destinations/icons/de-instrucc-3.png" alt="Selecciona las fechas de viaje entre el 8 de febrero y el 30 de junio del 2023 y la ruta de tu preferencia dentro del listado de rutas disponibles." />
-			<h3 class="!text-h3 !mb-8 !text-primary font-heading-bold">3°</h3>
-			<p>Selecciona las fechas de viaje entre el 8 de febrero y el 30 de junio del 2023 y la ruta de tu preferencia dentro del listado de rutas disponibles.</p>
+
+		<div class="grid grid-cols-auto-3 sm:grid-cols-1 sm:grid-rows-auto-3   gap-16 ">
+
+			<h3 class="!text-h3  !text-primary font-heading-bold sm:text-center">4°</h3>
+			<p class="max-w-prose ">Selecciona las fechas de viaje entre el 8 de febrero y el 30 de junio del 2023 y la ruta de tu preferencia dentro del listado de rutas disponibles.</p>
+			<img class="!w-[80px] !mx-auto  self-center sm:row-start-1 " src="https://www.copaair.com/promotions/destinations/icons/de-instrucc-4.png" alt="" />
+
 		</div>
-		<div class="text-center font-heading">
-			<img class="!w-96 !mx-auto !mb-16" src="https://www.copaair.com/promotions/destinations/icons/de-instrucc-4.png" alt="Presiona “Buscar” y tendrás hasta un 15% de descuento sobre la tarifa base final (sin combustible ni impuestos) al final de la compra." />
-			<h3 class="!text-h3 !mb-8 !text-primary font-heading-bold">4°</h3>
-			<p>Presiona “Buscar” y tendrás hasta un 15% de descuento sobre la tarifa base final (sin combustible ni impuestos) al final de la compra.</p>
-		</div>
+		
+	
+	
+
 	</div>
 
 </div>
