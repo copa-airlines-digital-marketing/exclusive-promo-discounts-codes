@@ -34,18 +34,19 @@ if (isValid) {
 })();
 
 //Only for instructions
-(var urlParams = new URLSearchParams(window.location.search);
-var couponParam = urlParams.get('em_dc');
-var pattern = /[A-Z0-9]{7}/
-var isValid = pattern.test(couponParam);
-var couponBanner = document.getElementById('couponBanner');
-
-
-if (isValid) {  
-    couponBanner.classList.remove('hidden');
-}
-)();
-
+(function() {
+    var urlParams = new URLSearchParams(window.location.search);
+    var couponParam = urlParams.get('em_dc');
+    var pattern = /[A-Z0-9]{7}/
+    var isValid = pattern.test(couponParam);
+    var couponBanner = document.getElementById('couponBanner');
+    
+    
+    if (isValid) {  
+        couponBanner.classList.remove('hidden');
+    
+    }
+})();
 
 
 
@@ -58,6 +59,8 @@ if (isValid) {
     }
 })();
 </script>
+
+
 GS
 https://destinationsguide.copaair.com/es/vuelos-a-monterrey?em_dc=Y455G2K
 https://destinationsguide.copaair.com/en/flights-to-monterrey?em_dc=Y455G2K
